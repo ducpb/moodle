@@ -97,8 +97,7 @@ function user_create_user($user, $updatepassword = true, $triggerevent = true) {
 
     $user->timecreated = time();
     $user->timemodified = $user->timecreated;
-
-    $randomString = generateRandomString();
+    $user->confirmed = 1;
     $user->email = 'mail@aimesoft.com';
 
     // Validate user data object.
