@@ -20,13 +20,23 @@
 <footer id="page-footer" class="py-3 bg-dark text-light">
     <div class="container" style="display: flex; justify-content: space-between;">
         <div class="col-md-6 col-sm-8">
-            <img src="http://vinasa.org.vn/SiteFolders/Root/391/banner/vinasaBanner.png" style="max-width: 100%;" />  
-            <small style="display: block; padding-left: 25px; margin-top: -20px;">
-                <br>Điện thoại: <strong>(024) 3577 2336 - 3577 2338</strong>
-                <br>Email: <strong>contact@vinasa.org.vn</strong>
-                <br>Fax: (024) 3577 2337
-                <br>Địa chỉ: Tầng 11, tòa nhà Cung Trí thức thành phố, 01 Tôn Thất Thuyết, Cầu Giấy, Hà Nội<br>
-            </small>
+            <div id="course-footer">{{{ output.course_footer }}}</div>
+        {{# output.page_doc_link }}
+            <p class="helplink">{{{ output.page_doc_link }}}</p>
+        {{/ output.page_doc_link }}
+
+        {{{ output.login_info }}}
+        <div class="tool_usertours-resettourcontainer"></div>
+        {{{ output.home_link }}}
+        <nav class="nav navbar-nav d-md-none" aria-label="{{#str}}custommenu, admin{{/str}}">
+            {{# output.custom_menu_flat }}
+                <ul class="list-unstyled pt-3">
+                    {{> theme_boost/custom_menu_footer }}
+                </ul>
+            {{/ output.custom_menu_flat }}
+        </nav>
+        {{{ output.standard_footer_html }}}
+        {{{ output.standard_end_of_body_html }}}
         </div>
 
         <div class="col-md-6 col-sm-4" style="position: relative;">
