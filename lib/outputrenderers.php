@@ -3297,7 +3297,7 @@ EOD;
         if (!isloggedin()) {
             $returnstr = get_string('loggedinnot', 'moodle');
             if (!$loginpage) {
-                $returnstr .= " (<a href=\"$loginurl\">" . get_string('login') . '</a>)';
+                $returnstr .= " (<a style=\"color: white\" href=\"$loginurl\">" . get_string('login') . '</a>)';
             }
             return html_writer::div(
                 html_writer::span(
