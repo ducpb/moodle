@@ -2339,7 +2339,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
-  --blue: #0f6fc5;
+  --blue: #3496c5;
   --indigo: #6610f2;
   --purple: #613d7c;
   --pink: #e83e8c;
@@ -2352,7 +2352,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #0f6fc5;
+  --primary: #3496c5;
   --secondary: #ced4da;
   --success: #357a32;
   --info: #008196;
@@ -2464,7 +2464,7 @@ sup {
   top: -.5em; }
 
 a {
-  color: #0f6fc5;
+  color: #3496c5;
   text-decoration: none;
   background-color: transparent; }
   a:hover {
@@ -4131,8 +4131,8 @@ fieldset:disabled #page-grade-grading-manage .actions a.action,
 
 .btn-primary {
   color: #fff;
-  background-color: #0f6fc5;
-  border-color: #0f6fc5; }
+  background-color: #3496c5;
+  border-color: #3496c5; }
   .btn-primary:hover {
     color: #fff;
     background-color: #0c5ba1;
@@ -4141,8 +4141,8 @@ fieldset:disabled #page-grade-grading-manage .actions a.action,
     box-shadow: 0 0 0 0.2rem rgba(51, 133, 206, 0.5); }
   .btn-primary.disabled, .btn-primary:disabled {
     color: #fff;
-    background-color: #0f6fc5;
-    border-color: #0f6fc5; }
+    background-color: #3496c5;
+    border-color: #3496c5; }
   .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
   .show > .btn-primary.dropdown-toggle {
     color: #fff;
@@ -4316,22 +4316,22 @@ fieldset:disabled #page-grade-grading-manage .actions a.action,
       box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5); }
 
 .btn-outline-primary {
-  color: #0f6fc5;
-  border-color: #0f6fc5; }
+  color: #3496c5;
+  border-color: #3496c5; }
   .btn-outline-primary:hover {
     color: #fff;
-    background-color: #0f6fc5;
-    border-color: #0f6fc5; }
+    background-color: #3496c5;
+    border-color: #3496c5; }
   .btn-outline-primary:focus, .btn-outline-primary.focus {
     box-shadow: 0 0 0 0.2rem rgba(15, 111, 197, 0.5); }
   .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-    color: #0f6fc5;
+    color: #3496c5;
     background-color: transparent; }
   .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
   .show > .btn-outline-primary.dropdown-toggle {
     color: #fff;
-    background-color: #0f6fc5;
-    border-color: #0f6fc5; }
+    background-color: #3496c5;
+    border-color: #3496c5; }
     .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
     .show > .btn-outline-primary.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(15, 111, 197, 0.5); }
@@ -4485,7 +4485,7 @@ fieldset:disabled #page-grade-grading-manage .actions a.action,
 
 .btn-link, .btn.btn-icon, #page-grade-grading-manage .actions .btn-icon.action {
   font-weight: 400;
-  color: #0f6fc5;
+  color: #3496c5;
   text-decoration: none; }
   .btn-link:hover, .btn.btn-icon:hover, #page-grade-grading-manage .actions .btn-icon.action:hover {
     color: #0a477e;
@@ -4729,7 +4729,7 @@ p.arrow_button input[type="button"],
   .dropdown-item.active, .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #0f6fc5; }
+    background-color: #3496c5; }
   .dropdown-item.disabled, .dropdown-item:disabled {
     color: #6c757d;
     pointer-events: none;
@@ -4981,8 +4981,8 @@ p.arrow_button input[type="button"],
   opacity: 0; }
   .custom-control-input:checked ~ .custom-control-label::before {
     color: #fff;
-    border-color: #0f6fc5;
-    background-color: #0f6fc5; }
+    border-color: #3496c5;
+    background-color: #3496c5; }
   .custom-control-input:focus ~ .custom-control-label::before {
     box-shadow: 0 0 0 0.2rem rgba(15, 111, 197, 0.25); }
   .custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
@@ -5025,8 +5025,8 @@ p.arrow_button input[type="button"],
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e"); }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
-  border-color: #0f6fc5;
-  background-color: #0f6fc5; }
+  border-color: #3496c5;
+  background-color: #3496c5; }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::after {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3e%3cpath stroke='%23fff' d='M0 2h4'/%3e%3c/svg%3e"); }
@@ -5188,7 +5188,7 @@ p.arrow_button input[type="button"],
     width: 1rem;
     height: 1rem;
     margin-top: -0.25rem;
-    background-color: #0f6fc5;
+    background-color: #3496c5;
     border: 0;
     transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     appearance: none; }
@@ -5207,7 +5207,7 @@ p.arrow_button input[type="button"],
   .custom-range::-moz-range-thumb {
     width: 1rem;
     height: 1rem;
-    background-color: #0f6fc5;
+    background-color: #3496c5;
     border: 0;
     transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     appearance: none; }
@@ -5229,7 +5229,7 @@ p.arrow_button input[type="button"],
     margin-top: 0;
     margin-right: 0.2rem;
     margin-left: 0.2rem;
-    background-color: #0f6fc5;
+    background-color: #3496c5;
     border: 0;
     transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     appearance: none; }
@@ -5312,7 +5312,7 @@ p.arrow_button input[type="button"],
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #0f6fc5; }
+  background-color: #3496c5; }
 
 .nav-fill .nav-item {
   flex: 1 1 auto;
@@ -5750,7 +5750,7 @@ p.arrow_button input[type="button"],
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #0f6fc5;
+  color: #3496c5;
   background-color: #fff;
   border: 1px solid #dee2e6; }
   .page-link:hover {
@@ -5770,8 +5770,8 @@ p.arrow_button input[type="button"],
 .page-item.active .page-link {
   z-index: 1;
   color: #fff;
-  background-color: #0f6fc5;
-  border-color: #0f6fc5; }
+  background-color: #3496c5;
+  border-color: #3496c5; }
 
 .page-item.disabled .page-link {
   color: #6c757d;
@@ -5818,7 +5818,7 @@ p.arrow_button input[type="button"],
 
 .badge-primary {
   color: #fff;
-  background-color: #0f6fc5; }
+  background-color: #3496c5; }
   .badge-primary[href]:hover, .badge-primary[href]:focus {
     color: #fff;
     background-color: #0b5496; }
@@ -6025,7 +6025,7 @@ p.arrow_button input[type="button"],
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #0f6fc5;
+  background-color: #3496c5;
   transition: width 0.6s ease; }
   @media (prefers-reduced-motion: reduce) {
     .progress-bar {
@@ -6083,8 +6083,8 @@ p.arrow_button input[type="button"],
   .list-group-item.active {
     z-index: 2;
     color: #fff;
-    background-color: #0f6fc5;
-    border-color: #0f6fc5; }
+    background-color: #3496c5;
+    border-color: #3496c5; }
 
 .list-group-horizontal {
   flex-direction: row; }
@@ -6841,7 +6841,7 @@ a.close.disabled, .moodle-dialogue-base a.disabled.closebutton {
   vertical-align: text-top !important; }
 
 .bg-primary {
-  background-color: #0f6fc5 !important; }
+  background-color: #3496c5 !important; }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
@@ -6941,7 +6941,7 @@ button.bg-dark:focus {
   border-left: 0 !important; }
 
 .border-primary {
-  border-color: #0f6fc5 !important; }
+  border-color: #3496c5 !important; }
 
 .border-secondary {
   border-color: #ced4da !important; }
@@ -9173,7 +9173,7 @@ button.bg-dark:focus {
   color: #fff !important; }
 
 .text-primary {
-  color: #0f6fc5 !important; }
+  color: #3496c5 !important; }
 
 a.text-primary:hover, a.text-primary:focus {
   color: #0a477e !important; }
@@ -9384,7 +9384,7 @@ a.dimmed_text:visited,
     background-color: #545b62; }
 
 .tag-primary {
-  background-color: #0f6fc5; }
+  background-color: #3496c5; }
   .tag-primary[href]:hover, .tag-primary[href]:focus {
     background-color: #0b5496; }
 
@@ -11351,7 +11351,7 @@ body:not(.behat-site) .switch {
       background-color: rgba(15, 111, 197, 0.4); }
     body:not(.behat-site) .switch input:checked + label::after {
       margin-left: 1.25rem;
-      background-color: #0f6fc5; }
+      background-color: #3496c5; }
     body:not(.behat-site) .switch input:focus + label::before {
       outline: none; }
     body:not(.behat-site) .switch input:focus + label::after {
@@ -11425,7 +11425,7 @@ body.h5p-embed .h5pmessages {
     border-right: none;
     border-bottom: 2px solid transparent; }
     .emoji-picker .category-button.selected {
-      border-bottom: 2px solid #0f6fc5; }
+      border-bottom: 2px solid #3496c5; }
   .emoji-picker .emojis-container,
   .emoji-picker .search-results-container {
     min-width: 280px; }
@@ -12407,7 +12407,7 @@ body.h5p-embed .h5pmessages {
 
 .path-calendar .calendar-controls .drop-target {
   box-sizing: border-box;
-  border: 1px dashed #0f6fc5; }
+  border: 1px dashed #3496c5; }
 
 .path-calendar .filters table {
   border-collapse: separate;
@@ -12810,7 +12810,7 @@ body:not(.editing) .sitetopic ul.section {
 
 .course-content .current::before {
   content: "";
-  border-left: #0f6fc5 2px solid;
+  border-left: #3496c5 2px solid;
   position: absolute;
   left: -1.25rem;
   top: 0;
@@ -13279,7 +13279,7 @@ span.editinstructions {
     #course-category-listings ul.ml ul.ml {
       margin: 0; }
   #course-category-listings .listitem[data-selected='1'] {
-    border-left: calc(1px + 5px) solid #0f6fc5;
+    border-left: calc(1px + 5px) solid #3496c5;
     padding-left: calc(1.25rem - 5px); }
   #course-category-listings .item-actions {
     margin-right: 1em;
@@ -13382,8 +13382,8 @@ span.editinstructions {
           box-shadow: 0 0 0 0.2rem rgba(38, 148, 166, 0.5); }
       #course-category-listings .listing-pagination .yui3-button.active-page {
         color: #fff;
-        background-color: #0f6fc5;
-        border-color: #0f6fc5; }
+        background-color: #3496c5;
+        border-color: #3496c5; }
         #course-category-listings .listing-pagination .yui3-button.active-page:hover {
           color: #fff;
           background-color: #0c5ba1;
@@ -13392,8 +13392,8 @@ span.editinstructions {
           box-shadow: 0 0 0 0.2rem rgba(51, 133, 206, 0.5); }
         #course-category-listings .listing-pagination .yui3-button.active-page.disabled, #course-category-listings .listing-pagination .yui3-button.active-page:disabled {
           color: #fff;
-          background-color: #0f6fc5;
-          border-color: #0f6fc5; }
+          background-color: #3496c5;
+          border-color: #3496c5; }
         #course-category-listings .listing-pagination .yui3-button.active-page:not(:disabled):not(.disabled):active, #course-category-listings .listing-pagination .yui3-button.active-page:not(:disabled):not(.disabled).active,
         .show > #course-category-listings .listing-pagination .yui3-button.active-page.dropdown-toggle {
           color: #fff;
@@ -13452,7 +13452,7 @@ span.editinstructions {
 
 .course-being-dragged-proxy {
   border: 0;
-  color: #0f6fc5;
+  color: #3496c5;
   vertical-align: middle;
   padding: 0 0 0 4em; }
 
@@ -15264,7 +15264,7 @@ body.jsenabled .questionflag input[type=checkbox] {
 
 #page-mod-quiz-edit .questionbankwindow div.header a:link,
 #page-mod-quiz-edit .questionbankwindow div.header a:visited {
-  color: #0f6fc5; }
+  color: #3496c5; }
 
 #page-mod-quiz-edit .questionbankwindow div.header a:hover {
   color: #0a477e; }
@@ -15370,7 +15370,7 @@ body.jsenabled .questionflag input[type=checkbox] {
   font-size: 0.9em; }
 
 a#hidebankcmd {
-  color: #0f6fc5; }
+  color: #3496c5; }
 
 .que.shortanswer .answer {
   padding: 0; }
@@ -16622,7 +16622,7 @@ select {
     left: 0;
     width: 100%;
     height: 3px;
-    background-color: #0f6fc5; }
+    background-color: #3496c5; }
   .path-mod-forum .unified-grader .drawer-button .icon {
     font-size: 20px;
     height: 20px;
@@ -16832,7 +16832,7 @@ div#dock {
 .usermenu .login {
   line-height: 2.25rem; }
   .usermenu .login a {
-    color: #0f6fc5; }
+    color: #3496c5; }
     .usermenu .login a:hover, .usermenu .login a:focus {
       color: #0a477e;
       text-decoration: underline; }
