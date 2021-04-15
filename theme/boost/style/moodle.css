@@ -16832,7 +16832,7 @@ div#dock {
 .usermenu .login {
   line-height: 2.25rem; }
   .usermenu .login a {
-    color: #008ec1; }
+    color: white; }
     .usermenu .login a:hover, .usermenu .login a:focus {
       color: #0a477e;
       text-decoration: underline; }
