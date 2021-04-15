@@ -17,12 +17,12 @@
 {{!
     Page navbar.
 }}
-<nav class="fixed-top navbar navbar-light bg-white navbar-expand moodle-has-zindex" aria-label="{{#str}}sitemenubar, admin{{/str}}" style="background-color: #3496C5 !important;">
+<nav class="fixed-top navbar navbar-light bg-white navbar-expand moodle-has-zindex" aria-label="{{#str}}sitemenubar, admin{{/str}}" style="background-color: #008ec1 !important;">
 
         <div data-region="drawer-toggle" class="d-inline-block mr-3">
             <button aria-expanded="{{#navdraweropen}}true{{/navdraweropen}}{{^navdraweropen}}false{{/navdraweropen}}" aria-controls="nav-drawer" type="button" 
                 class="btn nav-link float-sm-left mr-1 btn-light bg-gray"
-                style="color: #3496C5; background-color: white;"  
+                style="color: #008ec1; background-color: white;"  
                 data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav">{{#pix}}i/menubars{{/pix}}<span class="sr-only">{{#str}}sidepanel, core{{/str}}</span></button>
         </div>
 
@@ -45,7 +45,7 @@
             <!-- page_heading_menu -->
             {{{ output.page_heading_menu }}}
         </ul>
-        <ul class="nav navbar-nav ml-auto">
+        <ul class="nav navbar-nav ml-auto" style="color: white;">
             <li class="d-none d-lg-block">
                 {{{ output.search_box }}}
             </li>
@@ -61,3 +61,6 @@
         <!-- search_box -->
 </nav>
 
+<style>
+    li.parent * {color: white !important;}
+</style>

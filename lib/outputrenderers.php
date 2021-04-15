@@ -1107,7 +1107,7 @@ class core_renderer extends renderer_base {
         } else {
             $loggedinas = get_string('loggedinnot', 'moodle');
             if (!$loginpage && $withlinks) {
-                $loggedinas .= " (<a href=\"$loginurl\">".get_string('login').'</a>)';
+                $loggedinas .= " (<a style=\"color: white\" href=\"$loginurl\">".get_string('login').'</a>)';
             }
         }
 
