@@ -4135,7 +4135,7 @@ fieldset:disabled #page-grade-grading-manage .actions a.action,
   border-color: #008ec1; }
   .btn-primary:hover {
     color: #fff;
-    background-color: #0c5ba1;
+    background-color: #008ec1;
     border-color: #0b5496; }
   .btn-primary:focus, .btn-primary.focus {
     box-shadow: 0 0 0 0.2rem rgba(51, 133, 206, 0.5); }
@@ -13386,7 +13386,7 @@ span.editinstructions {
         border-color: #008ec1; }
         #course-category-listings .listing-pagination .yui3-button.active-page:hover {
           color: #fff;
-          background-color: #0c5ba1;
+          background-color: #008ec1;
           border-color: #0b5496; }
         #course-category-listings .listing-pagination .yui3-button.active-page:focus, #course-category-listings .listing-pagination .yui3-button.active-page.focus {
           box-shadow: 0 0 0 0.2rem rgba(51, 133, 206, 0.5); }
