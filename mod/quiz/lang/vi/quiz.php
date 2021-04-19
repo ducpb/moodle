@@ -70,7 +70,7 @@ $string['attempterror'] = 'Bạn chưa được phép tham dự ở thời đi�
 $string['attempterrorinvalid'] = 'ID bài kiểm tra không hợp lệ';
 $string['attempterrorcontentchange'] = 'Bản xem trước bài kiểm tra này không còn tồn tại. (Khi một bài kiểm tra được chỉnh sửa, mọi bản xem trước đang thực hiện sẽ tự động bị xóa.)';
 $string['attempterrorcontentchangeforuser'] = 'Bài kiểm tra này không còn tồn tại.';
-$string['attemptfirst'] = 'Kiểm tra lần đầu';
+$string['attemptfirst'] = 'Lần kiểm tra đầu';
 $string['attemptincomplete'] = 'Bài kiểm tra (by {$a}) chưa hoàn thành';
 $string['attemptlast'] = 'Lần kiểm tra cuối';
 $string['attemptnumber'] = 'Tham dự';
@@ -224,8 +224,8 @@ $string['createmultiple'] = 'Thêm một số câu hỏi ngẫu nhiên vào bài
 $string['createnewquestion'] = 'Tạo câu hỏi mới';
 $string['createquestionandadd'] = 'Tạo một câu hỏi mới và thêm nó vào bài kiểm tra.';
 $string['custom'] = 'Định dạng tùy chỉnh';
-$string['dataitemneed'] = 'Bạn cần thêm ít nhất một tập dữ liệu để có một câu hỏi hợp lệ';
 
+$string['dataitemneed'] = 'Bạn cần thêm ít nhất một tập dữ liệu để có một câu hỏi hợp lệ';
 $string['datasetdefinitions'] = 'Các định nghĩa về tập dữ liệu có thể sử dụng lại cho danh mục {$a}';
 $string['datasetnumber'] = 'Số';
 $string['daysavailable'] = 'Số ngày có sẵn';
@@ -251,26 +251,26 @@ $string['description'] = 'Mô tả';
 $string['disabled'] = 'Bị vô hiệu hoá';
 
 $string['displayoptions'] = 'Tùy chọn hiển thị';
-$string['donotariesutosave'] = 'Không sử dụng tính năng tự động lưu';
+$string['donotuseautosave'] = 'Không sử dụng tính năng tự động lưu';
 $string['download'] = 'Nhấp để tải xuống tệp danh mục đã xuất';
 $string['downloadextra'] = '(tệp cũng được lưu trữ trong tệp khóa học trong thư mục /backupdata/quiz)';
-$string['dragto later'] = 'Sau {$a}';
+$string['dragtoafter'] = 'Sau {$a}';
 $string['dragtostart'] = 'Bắt ​​đầu';
-$string['dupateresponse'] = 'Nội dung gửi này đã bị bỏ qua vì bạn đã đưa ra câu trả lời tương đương trước đó.';
+$string['duplicateresponse'] = 'Nội dung gửi này đã bị bỏ qua vì bạn đã đưa ra câu trả lời tương đương trước đó.';
 $string['eachattemptbuildsonthelast'] = 'Mỗi lần thử được xây dựng dựa trên lần cuối cùng';
 $string['eachattemptbuildsonthelast_help'] = 'Nếu cho phép nhiều lần thử và cài đặt này được bật, mỗi lần thử  bài kiểm tra mới sẽ chứa kết quả của lần thử trước. Điều này cho phép hoàn thành một bài kiểm tra sau nhiều lần thử. ';
 $string['editcategories'] = 'Chỉnh sửa danh mục';
 $string['editcategory'] = 'Chỉnh sửa danh mục';
 $string['editcatquestions'] = 'Chỉnh sửa câu hỏi về danh mục';
-$string['editquestion'] = 'Chỉnh sửa câu hỏi';
-$string['editquiz'] = 'Chỉnh sửa quiz';
-$string['editquiz_help'] = 'Khi tạo một bài kiểm tra, các khái niệm chính là:
+$string['editingquestion'] = 'Chỉnh sửa câu hỏi';
+$string['editingquiz'] = 'Chỉnh sửa quiz';
+$string['editingquiz_help'] = 'Khi tạo một bài kiểm tra, các khái niệm chính là:
 * Bài kiểm tra, chứa các câu hỏi trên một hoặc nhiều trang
 * Ngân hàng câu hỏi, lưu trữ các bản sao của tất cả các câu hỏi được sắp xếp thành các danh mục
 * Câu hỏi ngẫu nhiên - Một học sinh nhận được các câu hỏi khác nhau mỗi khi họ làm bài kiểm tra và các học sinh khác nhau có thể nhận được các câu hỏi khác nhau ';
 
-$string['editquiz_link'] = 'mod/quiz/edit';
-$string['editquizx'] = 'Chỉnh sửa quiz:{$a}';
+$string['editingquiz_link'] = 'mod/quiz/edit';
+$string['editingquizx'] = 'Chỉnh sửa quiz:{$a}';
 $string['editmaxmark'] = 'Chỉnh sửa điểm tối đa';
 $string['editoverride'] = 'Chỉnh sửa ghi đè';
 $string['editqcats'] = 'Chỉnh sửa danh mục câu hỏi';
@@ -284,8 +284,8 @@ $string['emailconfirmbody'] = 'Xin chào {$a->username}!
 Cảm ơn bạn đã gửi câu trả lời cho \'{$a->quizname}\' trong khóa học \'{$a->coursename}\' tại {$a->submissiontime}.
 Thông báo này xác nhận rằng câu trả lời của bạn đã được lưu.
 Bạn có thể truy cập bài kiểm tra này tại {$a->quizurl}. ';
-$string['emailconf domainsmall'] = 'Cảm ơn bạn đã gửi câu trả lời cho \'{$a->quizname} \' ';
-$string['emailconf domainsubject'] = 'Xác nhận gửi:{$a->quizname}';
+$string['emailconfirmsmall'] = 'Cảm ơn bạn đã gửi câu trả lời cho \'{$a->quizname} \' ';
+$string['emailconfirmsubject'] = 'Xác nhận gửi:{$a->quizname}';
 $string['emailnotifybody'] = 'Xin chào {$a->username}!
 
 {$a->studentname} đã hoàn thành \'{$a->quizname} \' ({$a->quizurl}) trong khóa học \'{$a->coursename} \'.
@@ -308,7 +308,7 @@ $string['erroraccessingreport'] = 'Bạn không thể truy cập báo cáo này'
 $string['errorinquestion'] = 'Lỗi trong câu hỏi';
 $string['errormissingquestion'] = 'Lỗi:Hệ thống thiếu câu hỏi với id {$a}';
 $string['errornotnumbers'] = 'Lỗi - câu trả lời phải là số';
-$string['erroruneosystemevent'] = 'Mã sự kiện không mong muốn {$a->event} được tìm thấy cho câu hỏi {$a->questiononid} trong bài thi {$a->trytid}.';
+$string['errorunexpectedevent'] = 'Mã sự kiện không mong muốn {$a->event} được tìm thấy cho câu hỏi {$a->questiononid} trong bài thi {$a->trytid}.';
 $string['essay'] = 'Bài luận';
 $string['essayquestions'] = 'Câu hỏi';
 $string['eventattemptdeleted'] = 'Đã xóa quiz';
@@ -583,12 +583,12 @@ $string['outofshort'] = '{$a->grade}/{$a->maxgrade}';
 $string['overallfeedback'] = 'Phản hồi tổng thể';
 $string['overallfeedback_help'] = 'Phản hồi tổng thể là văn bản được hiển thị sau khi thử một bài kiểm tra. Bằng cách chỉ định ranh giới lớp bổ sung (dưới dạng phần trăm hoặc dưới dạng số), văn bản được hiển thị có thể phụ thuộc vào cấp độ đạt được. ';
 $string['overdue'] = 'Quá hạn';
-$string['overduehandling'] = 'Khi thời gian hết hạn';
+$string['overduehandling'] = 'Khi hết thời gian làm bài';
 $string['overduehandling_desc'] = 'Điều gì sẽ xảy ra theo mặc định nếu học sinh không nộp bài kiểm tra trước khi hết thời gian.';
 $string['overduehandling_help'] = 'Cài đặt này kiểm soát điều gì sẽ xảy ra nếu học sinh không nộp bài kiểm tra trước khi hết thời gian. Nếu học sinh đang tích cực làm bài kiểm tra tại thời điểm đó, thì đồng hồ đếm ngược sẽ luôn tự động gửi bài thi cho họ, nhưng nếu họ đã đăng xuất, thì cài đặt này sẽ kiểm soát những gì xảy ra. ';
 $string['overduehandling_link'] = 'mod/quiz/timing';
 $string['overduehandlingautosubmit'] = 'Các bài thi mở được gửi tự động';
-$string['overduehandlinggraceperiod'] = 'Có thời gian gia hạn khi có thể gửi các lần thử mở nhưng không có câu hỏi nào được trả lời nữa';
+$string['overduehandlinggraceperiod'] = 'Có thời gian cho phép gửi bài thi tuy nhiên không tính các câu hỏi kể từ khi bắt đầu thời gian gia hạn';
 $string['overduehandlingautoabandon'] = 'Các bài thi phải được gửi trước khi hết thời gian, nếu không chúng sẽ không được tính';
 $string['overduemustbesubmittedby'] = 'Lần thử này đã quá hạn. Nó đáng lẽ đã được gửi. Nếu bạn muốn bài kiểm tra này được chấm điểm, bạn phải gửi nó trước {$a}. Nếu bạn không nộp nó vào lúc đó, sẽ không có điểm nào từ lần thử này được tính. ';
 $string['override'] = 'Ghi đè';
