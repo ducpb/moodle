@@ -578,7 +578,7 @@ $string['orderandpaging_help'] = 'Các số 10, 20, 30, ... đối diện với 
 
 $string['out resultsadvanced'] = 'Kết quả là cài đặt nâng cao';
 $string['outof'] = '{$a->grade} trong số {$a->maxgrade}';
-$string['outofpercent'] = '{$a->grade} trong số {$a->maxgrade} ({$a->phần trăm}%)';
+$string['outofpercent'] = '{$a->grade} trong số {$a->maxgrade} ({$a->percent}%)';
 $string['outofshort'] = '{$a->grade}/{$a->maxgrade}';
 $string['overallfeedback'] = 'Phản hồi tổng thể';
 $string['overallfeedback_help'] = 'Phản hồi tổng thể là văn bản được hiển thị sau khi thử một bài kiểm tra. Bằng cách chỉ định ranh giới lớp bổ sung (dưới dạng phần trăm hoặc dưới dạng số), văn bản được hiển thị có thể phụ thuộc vào cấp độ đạt được. ';
