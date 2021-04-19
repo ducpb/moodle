@@ -25,14 +25,14 @@
 
 $string['answerhowmany'] = 'Một hay nhiều câu trả lời?';
 $string['answerhowmany_desc'] = 'Liệu mặc định nên là một phản hồi (tức là các nút radio) hay nhiều phản hồi (tức là hộp kiểm).';
-$string['answersernumbering'] = 'Đánh số các lựa chọn?';
-$string['answersernumbering123'] = '1., 2., 3., ...';
-$string['answersernumberingabc'] = 'a., b., c., ...';
-$string['answersernumberingABCD'] = 'A., B., C., ...';
-$string['answersernumberingiii'] = 'i., ii., iii., ...';
-$string['answersernumberingIIII'] = 'I., II., III., ...';
-$string['answersernumberingnone'] = 'Không đánh số';
-$string['answersernumbering_desc'] = 'Kiểu đánh số mặc định.';
+$string['answernumbering'] = 'Đánh số các lựa chọn?';
+$string['answernumbering123'] = '1., 2., 3., ...';
+$string['answernumberingabc'] = 'a., b., c., ...';
+$string['answernumberingABCD'] = 'A., B., C., ...';
+$string['answernumberingiii'] = 'i., ii., iii., ...';
+$string['answernumberingIIII'] = 'I., II., III., ...';
+$string['answernumberingnone'] = 'Không đánh số';
+$string['answernumbering_desc'] = 'Kiểu đánh số mặc định.';
 $string['answersingleno'] = 'Cho phép nhiều câu trả lời';
 $string['answersingleyes'] = 'Chỉ một câu trả lời';
 $string['choiceno'] = 'Lựa chọn {$a}';
